@@ -37,8 +37,8 @@ const CryptoDetails = () => {
         { title: 'Number of Markets', value: cryptoDetails.numberOfMarkets, icon: <FundOutlined />},
         { title: 'Number of Exchanges', value: cryptoDetails.numberOfExchanges, icon: <MoneyCollectOutlined />},
         { title: 'Approved Supply', value: cryptoDetails.approvedSupply ? <CheckOutlined /> : <StopOutlined />, icon: <ExclamationCircleOutlined />},
-        { title: 'Total Supply', value: `$ ${millify(cryptoDetails.totalSupply)}`, icon: <ExclamationCircleOutlined />},
-        { title: 'Circulating Supply', value: `$ ${millify(cryptoDetails.circulatingSupply)}`, icon: <ExclamationCircleOutlined />},
+        { title: 'Total Supply', value: `${millify(cryptoDetails.totalSupply)}`, icon: <ExclamationCircleOutlined />},
+        { title: 'Circulating Supply', value: `${millify(cryptoDetails.circulatingSupply)}`, icon: <ExclamationCircleOutlined />},
     ]
     
     return (
