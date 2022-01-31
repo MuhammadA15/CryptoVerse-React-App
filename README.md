@@ -1,6 +1,6 @@
 # Prequisites
 
-Must have CORS disabled
+- Must have CORS disabled in order to fetch crypto information
 
 # Getting Started with Create React App
 
